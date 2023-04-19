@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/sellToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:background="@color/red"
+            >
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/sellerPP"
+                android:layout_gravity="end"
+                android:layout_marginTop="0dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ic_baseline_person_outline_24"
+
+                />
+            <TextView
+                android:id="@+id/sellerSessionPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:text="Profile"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/DarkBlue"
+                android:textSize="30sp"
+                />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+<include layout="@layout/seller_content_main"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>

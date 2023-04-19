@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="270dp"
+    android:id="@+id/mainFragmentCardView"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Lavender"
+        app:layout_constraintEnd_toEndOf="@+id/textView1"
+        app:layout_constraintStart_toEndOf="@+id/textView1">
+
+        <ImageView
+            android:id="@+id/rowImg"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintBottom_toBottomOf="@+id/rowLocation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.038" />
+
+
+        <TextView
+            android:id="@+id/rowTitle"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:paddingLeft="2dp"
+
+            android:paddingRight="2dp"
+            android:gravity="left"
+            android:text="This is a title for property upload"
+            android:textColor="@color/red"
+            android:textSize="17dp"
+            android:textStyle="bold"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.636"
+            />
+
+        <TextView
+            android:id="@+id/rowPrice"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="NPR. 500000000"
+            android:textColor="@color/green"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/rowLocation"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rowTitle"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/rowLocation"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:gravity="center"
+            android:text="KedarSyun,9, Bajhang"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="italic"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.88" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rowLocation"
+
+
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

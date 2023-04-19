@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Add Land Property"
+        android:id="@+id/land_item"
+        android:icon="@drawable/ic_baseline_property_upload_24"/>
+    <item android:title="Add House Property"
+        android:id="@+id/home_item"
+        android:icon="@drawable/ic_baseline_property_upload_24"/>
+
+</menu>

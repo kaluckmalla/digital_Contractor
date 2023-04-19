@@ -1,0 +1,248 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Hello home fragment</string>
+    <string name="message_fragment">Hello message fragment</string>
+    <string name="notification_fragment">Hello notification fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!--@@@@@@@@@@@@@@@@@@for seller Account navigation button flag@@@@@@@@@@@@@@@-->
+    <string name="OpenDrawer">Open seller navigation drawer</string>
+    <string name="CloseDrawer">Open seller navigation drawer</string>
+
+    <!-- For @@@@@@@@@@@@_________________Uplopad House property_______________@@@@@@@@@@@@-->
+
+    <!-- For House area unit-->
+    <string-array name="house_land_areaUnit">
+        <item>Ropani</item>
+        <item>Aana</item>
+        <item>Square feet</item>
+        <item>Square meter</item>
+        <item>Dhur</item>
+        <item>Paisa</item>
+        <item>Kattha</item>
+        <item>Bigha</item>
+        <item>Damm</item>
+        <item>Haat</item>
+    </string-array>
+    <!--Facing Direction Room-->
+    <string-array name="facing_direction">
+        <item>South</item>
+        <item>North</item>
+        <item>East</item>
+        <item>West</item>
+        <item>South-East</item>
+        <item>East-North</item>
+        <item>North-West</item>
+        <item>West-South</item>
+    </string-array>
+    <!--Kitchen Room-->
+    <string-array name="no_of_floors">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <!--Rooms-->
+    <string-array name="rooms">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+    </string-array>
+
+    <!--Building Age-->
+    <string-array name="building_age">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <!--Bed Room-->
+    <string-array name="bed_rooms">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <!--Bath Room-->
+    <string-array name="bath_rooms">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <!--Kitchen Room-->
+    <string-array name="kitchen_rooms">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <!--Province -->
+    <string-array name="province">
+        <item>Sudurpashchim Pradesh</item>
+    </string-array>
+
+    <!--District -->
+    <string-array name="district">
+        <item>Achham</item>
+        <item>Baitadi</item>
+        <item>Bajhang</item>
+        <item>Bajura</item>
+        <item>Dadeldhura</item>
+        <item>Darchula</item>
+        <item>Doti</item>
+        <item>Kailali</item>
+        <item>Kanchanpur</item>
+    </string-array>
+
+    <!--Administration -->
+    <string-array name="administration">
+        <item>Dhangadhi</item>
+        <item>Godawari</item>
+        <item>Lamki chuha</item>
+        <item>Tikapur</item>
+        <item>Lamki</item>
+
+    </string-array>
+
+    <!--Ward Number -->
+    <string-array name="ward_num">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <!--Ward Number -->
+    <string-array name="expiry_date">
+        <item>3 month</item>
+        <item>6 month</item>
+        <item>9 month</item>
+        <item>1 year</item>
+        <item>2 year</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- For @@@@@@@@@@@@_________________Uplopad Land property_______________@@@@@@@@@@@@-->
+
+
+</resources>

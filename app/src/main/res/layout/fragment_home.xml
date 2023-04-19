@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    tools:context=".HomeFragment">
+
+
+    <ImageView
+        android:id="@+id/dConLogo"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/d_con"
+        app:layout_constraintBottom_toTopOf="@+id/dashboardRecycleView"
+        app:layout_constraintEnd_toStartOf="@+id/searchView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dashboardRecycleView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/go_login"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toEndOf="@+id/searchView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <android.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:background="@color/DarkSlateGray"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        app:layout_constraintVertical_bias="0.0">
+
+
+    </ListView>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/GreenYellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/dashboardRecycleView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
